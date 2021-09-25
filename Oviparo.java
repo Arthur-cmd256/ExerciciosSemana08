@@ -1,6 +1,6 @@
 public class Oviparo extends Animal{
     private String nome;
-    private int quantidadeOlhos;
+    private int quantidadeOlho;
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -9,10 +9,10 @@ public class Oviparo extends Animal{
         return nome;
     }
 
-    public void setQuantidadeOlhos(int quantidadeOlhos) {
-        this.quantidadeOlhos = quantidadeOlhos;
+    public void setQuantidadeOlho(int quantidadeOlho) {
+        this.quantidadeOlho = quantidadeOlho;
     }
-    public int getQuantidadeOlhos() {
-        return quantidadeOlhos;
+    public int getQuantidadeOlho() {
+        return quantidadeOlho;
     }
 }
